@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cachorro Colorido</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+	<!-- Java Script -->
+	<script type="text/javascript" src="javaauscript.js"></script>
+	
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</head>
+
+<body class="text-black bg-light">
+
+	<nav class="navbar navbar-expand-lg bg-light  bg-light">
+		<div class="container-fluid">
+			<img style="width: 10%" src="img/colorido.jpg">
+			<a class="navbar-brand text-black" href="#topo">Cachorro Colorido</a>
+		</div>	
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			<li class="nav-item">
+				<a class="nav-link active text-black" aria-current="page" href="#tabHotelaria">Hotelaria</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle text-black" id="dropServicos" role="button" href="#drop" data-bs-toggle="dropdown">Serviços</a>
+		<ul class="dropdown-menu">
+				<li><a class="dropdown-item" href="#gBanho">Banho	</a></li>
+				<li><a class="dropdown-item" href="#gTosa">Tosa & Banho	</a></li>
+				<li><a class="dropdown-item" href="#gAlmoco">AUmoço</a></li>
+				<li><a class="dropdown-item" href="#gSpa">AUSpa</a></li>
+                <li><a class="dropdown-item" href="#gMassagem">Massagem Relaxante</a></li>
+				<li><a class="dropdown-item" href="#gVet">Veterinária</a></li>
+					</ul>
+				</li>
+				<li>
+					<a class="nav-link text-black" href="#cadDoguinho">Cadastrar Doguinho</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<table class="table table-light table-sm" style="text-align: center;">
+		
+			<thead>
+				<tr class="table-light">
+				<th scope="col">Número do Registro</th>
+				<th scope="col">Nome do Doguinho</th>
+				<th scope="col">Nome do tutor</th>
+				<th scope="col">Contato</th>
+				<th scope="col">Data Agendamento</th>
+				
+			</tr>
+		    </thead>
+			<tbody>
+				<tr class="table-light"><th class="text-center table-primary" colspan="7">Banho</th></tr>
+				<tr class="table-light">
+					<th scope="col">2</th>
+					<td>Lulu</td>
+					<td>João</td>
+					<td>21-99999999</td>
+					<td>01/11/2022</td>
+					
+				</tr>
+				<tr class="table-light">
+					<th scope="col">4</th>
+					<td>Catita</td>
+					<td>Carlos</td>
+					<td>21-99998888</td>
+					<td>05/11/2022</td>
+					
+				</tr>
+				
+				
+				
+			<tr class="table-light"><th class="text-center table-primary" colspan="7">Tosa & banho</th></tr>
+				<tr class="table-light">
+					<th scope="col">1</th>
+					<td>Laila</td>
+					<td>Soraya</td>
+					<td>21-99999999</td>
+					<td>06/11/2022</td>
+					
+				</tr>
+			<tr class="table-light">
+					<th scope="col">3</th>
+					<td>Josh</td>
+					<td>Daniel</td>
+					<td>21-99999999</td>
+					<td>07/11/2022</td>
+					
+				</tr></thead>
+				<div class="m-5">
+					<hr class="border-primary border-3 opacity-75">
+									
+
+
+				<tr class="table-light"><th class="text-center table-primary"colspan="7">AUmoço</th></tr>
+				<tr class="table-light">
+					<th scope="col">6</th>
+					<td>Scooby</td>
+					<td>Renato</td>
+					<td>21-98888888</td>
+					<td>04/11/2022</td>
+					
+				</tr>
+				<tr>
+					<th scope="col">5</th>
+					<td>Barão</td>
+					<td>João</td>
+					<td>21-977777777</td>
+					<td>11/11/2022</td>
+					
+				</tr>
+				
+				<tr><th class="text-center table-primary"colspan="7">AU Spa</th></tr>
+				<tr>
+					<th scope="col">8</th>
+					<td>Nina</td>
+					<td>Carla</td>
+					<td>21-955555555</td>
+					<td>08/11/2022</td>
+					
+				</tr>
+				<tr>
+					<th scope="col">9</th>
+					<td>Pretinha</td>
+					<td>Marcelo</td>
+					<td>21-99999999</td>
+					<td>05/11/2022</td>
+					
+				</tr>			
+
+
+			<tr><th class="text-center table-primary"colspan="7">Massagem Relaxante</th></tr>
+				<tr>
+					<th scope="col">7</th>
+					<td>Chiquinha</td>
+					<td>Brenda</td>
+					<td>21-992222222</td>
+					<td>07/11/2022</td>
+					
+				</tr><tr>
+					<th scope="col">12</th>
+					<td>Duque</td>
+					<td>Priscilla</td>
+					<td>21-92222222</td>
+					<td>09/11/2022</td>
+					
+				</tr>
+				
+			
+				
+			<tr><th class="text-center table-primary"colspan="7">Veterinária</th></tr>
+				<tr>
+					<th scope="col">10</th>
+					<td>Kiki</td>
+					<td>Leandro</td>
+					<td>21-993333333</td>
+					<td>01/11/2022</td>
+					
+				</tr><tr>
+					<th scope="col">11</th>
+					<td>Rufus</td>
+					<td>Erik</td>
+					<td>21-993333333</td>
+					<td>04/11/2022</td>
+					
+				</tr>
+				</div>
+
+				<tr id="inserirTabela"></tr>
+				</tbody>
+		</table>
+		<br>
+	</div>
+<div class="m-5">
+	<hr class="border-primary border-3 opacity-75">
+</div>
+<h2 class="text-center mb-5">Cadastrar Doguinho</h2>
+<div class="container">
+
+	<form name ="cadastrar" onsubmit="event.preventDefault()">
+		<!--Linha código e data lançamento-->
+	<div class="row">
+
+		<! -- código-->
+		<div class="mb-3 col">
+			<label for="codReg" class="form-label">Número do Registro:</label>
+			<input type="text" id="codReg" class="form-control" name="registro" required>
+		</div>
+
+		
+	<!--nome-->
+		<div class="mb-3 col">
+		<label for="nome" class="form-label">Nome do Doguinho</label>
+		<input type="text" id="titNome" class="form-control" name="nome" required>
+	</div>
+	
+    </div>
+
+	<!-- tutor-->
+
+	<div class="row">
+		
+		<div class="mb-3 col">
+		<label for="tutor" class="form-label">Nome do tutor:</label>
+		<input type="text" id="tutor" class="form-control" name="tutor" required>
+	</div>
+
+		<!--contato-->
+	<div class="mb-3 col">
+		<label for="contato" class="form-label">Telefone:</label>
+		<input type="text" id="telefone" class="form-control" name="tel" required>
+	</div>
+
+	<!-- Data Agendamento-->
+		
+	    <div class="mb-3 col">
+		<label for="data" class="form-label">Data de Agendamento:</label>
+		<input type="date" id="dataAg" class="form-control" name="data" required>
+	</div>
+	
+
+	<!--Linha serviços-->
+
+	<div class="row">
+		<div class="mb-3 col form-check">
+		<input type="radio" name="radio" id="radBanho" class="form-check-input" value="Banho" required>
+		<label for="radBanho" class="form-label">Banho </label>
+	</div>
+
+		<div class="mb-3 col form-check">
+		<input type="radio" name="radio" id="radTosaB" class="form-check-input" value="Tosa & Banho" required>
+		<label for="radGenAnimacao" class="form-label">Tosa & Banho </label>
+	</div>
+	
+	
+		<div class="mb-3 col form-check">
+		<input type="radio" name="radio" id="radAuMoço" class="form-check-input" value="AUmoço" required>
+		<label for="radGenComedia" class="form-label">AUmoço </label>
+	</div>
+
+	
+		<div class="mb-3 col form-check">
+		<input type="radio" name="radio" id="radAuSpa" class="form-check-input" value="AuSpa" required>
+		<label for="radAuSpa" class="form-label">AUspa </label>
+	</div>
+
+	
+		<div class="mb-3 col form-check">
+		<input type="radio" name="radio" id="radMass" class="form-check-input" value="Massagem Relaxante" required>
+		<label for="radMass" class="form-label">Massagem Relaxante </label>
+	</div>
+
+	
+		<div class="mb-3 col form-check">
+		<input type="radio" name="radio" id="radVet" class="form-check-input" value="Veterinária" required>
+		<label for="radVet" class="form-label">Veterinária </label>
+	</div></div>
+
+	<div class="col-auto"></div>
+	<!--Botao Enviar-->
+<button type="submit" class="btn btn-primary mb-3" onclick="insere()">Cadastrar</button>
+</form></div>
+</div>
+
+</body>
+</html>
